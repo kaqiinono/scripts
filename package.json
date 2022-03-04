@@ -1,0 +1,24 @@
+{
+  "name": "@kaqiinono/scripts",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "dm-release": "npx standard-version --dry-run",
+    "dm-husky": "env/husky.js",
+    "fm-run": "build/fm-run.js",
+    "dm-rule-check": "rule/ruleChecker.js",
+    "dm-rule": "rule/setEnv.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "shelljs": "^0.8.5",
+    "walk": "^2.3.15"
+  }
+}

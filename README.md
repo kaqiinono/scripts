@@ -1,0 +1,26 @@
+# 本地调试
+```shell
+npm ln /Users/songmeinuo/Documents/coding/scripts/dm-scripts
+```
+
+# 安装
+```shell
+npm install @jd/scripts -D
+```
+
+# 使用
+```shell
+dm-husky
+```
+```shell
+fm-run
+```
+```shell
+fm-upload
+```
+```shell
+dm-rule
+```
+```shell
+dm-check
+```
