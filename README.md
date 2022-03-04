@@ -16,9 +16,6 @@ dm-husky
 fm-run
 ```
 ```shell
-fm-upload
-```
-```shell
 dm-rule
 ```
 ```shell

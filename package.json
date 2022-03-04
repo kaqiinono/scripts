@@ -1,10 +1,10 @@
 {
-  "name": "@kaqiinono/scripts",
+  "name": "kaqiinono-scripts",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
-    "dm-release": "npx standard-version --dry-run",
+    "dm-release": "build/release.js",
     "dm-husky": "env/husky.js",
     "fm-run": "build/fm-run.js",
     "dm-rule-check": "rule/ruleChecker.js",
