@@ -3,22 +3,20 @@
 const shell = require('shelljs');
 const root = process.cwd();
 
-function excute(cmd, opt, callback) {
+function excute(cmd, opt) {
   const { stdout, stderr, code } = shell.exec(
     cmd, {
       cwd: root,
       ...opt
     } );
-  if (code === 0) {
-    console.log(stdout);
-    // process.exit(0);
-    callback && callback()
-  } else {
-    console.log(stdout);
-    console.log(stderr);
-    console.log('done!')
-    // process.exit(1);
-  }
+  // if (code === 0) {
+  //   console.log(stdout);
+  // } else {
+  //   console.log(stdout);
+  //   console.log(stderr);
+  //   // process.exit(1);
+  // }
+  return { stdout, stderr, code }
 }
 
 
