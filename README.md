@@ -5,7 +5,7 @@ npm ln /Users/songmeinuo/Documents/coding/scripts/dm-scripts
 
 # 安装
 ```shell
-npm install @jd/scripts -D
+npm install kaqiinono-scripts -D
 ```
 
 # 使用
